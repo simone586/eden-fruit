@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'IlMioFont';
+  src: url('Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('sfondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'IlMioFont', Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
